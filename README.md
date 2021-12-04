@@ -1,5 +1,7 @@
 # Spark Streaming
 
+## Todo o processo foi feito com Apache Spark 2.4.0 e Pyspark 2.4.0. Com Python 3.8 e Java Jdk 11
+
 ## Arquivos CSVs
 
 Deverá ser criado uma pasta que será usada para o spark ficar lendo, cada arquivo csv que cair nessa pasta o spark streaming irá ler e gravar no banco de dados postgres. Neste exemplo existem três arquivos que serão copiados em momentos diferentes para testar o streaming.

@@ -28,4 +28,4 @@ O jar de conexão ao banco deverá ser guardado em uma pasta que será apontada 
 O script spark_streaming_csv.py fará o streaming na pasta descrita, sendo acionado a cada 5 segundos para verificar se existe um novo arquivo.
 Existindo o novo arquivo o spark fará a leitura dele e guardará os dados na tabela do postgres.
 
-# rodar spark-submit --jars /home/nivas/postgresql-9.4.1211.jar spark_json.py
+# rodar spark-submit --jars /home/nivas/postgresql-9.4.1211.jar spark_streaming_csv.py

@@ -1,5 +1,3 @@
-# rodar spark-submit --jars /home/nivas/postgresql-42.2.23.jar spark_json.py
-
 from pyspark.sql import SparkSession
 from pyspark.sql.types import *
 from pyspark.streaming import *
